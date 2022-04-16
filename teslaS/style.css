@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #121212;
+  color: #fff;
+
+  /* scroll-behavior: none; */
+}
+
+.logo {
+  width: 17rem;
+  height: auto;
+}
+
+.header {
+  height: 100vh;
+  z-index: 999;
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.32) 0%,
+      rgba(255, 255, 255, 0.15) 12.42%,
+      rgba(44, 44, 44, 0.22) 100%
+    ),
+    url(img/models.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* border: 2px solid white; */
+  height: 5rem;
+  padding-top: 2.5rem;
+  /* position: fixed; */
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+.nav > span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #121212;
+  padding: 1rem 3rem;
+  border: 2px solid #121212;
+  border-radius: 3rem;
+  transition: all 0.25s;
+}
+
+.nav > span:hover {
+  color: #121212;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #3a3a3a;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 0.8rem 1.6rem;
+  transition: all 0.25s;
+  border-radius: 3rem;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  color: #121212;
+}
+
+.details {
+  margin: 2rem;
+}
+
+.details > h1 {
+  display: none;
+}
+
+h1.active {
+  display: block;
+}
+
+.modal-name {
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.header-bottom {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 55%;
+  color: #fff;
+}
+
+.detail {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+}
+
+.feature-detail {
+  font-size: 3.8rem;
+}
+
+.feature-name {
+  font-size: 1.8rem;
+}
+
+.cta {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 500;
+  padding: 1.5rem 2rem;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  transition: all 0.2s;
+}
+
+.cta:hover {
+  color: #121212;
+  background-color: #fff;
+}
+
+.interior-head {
+  font-size: 3.2rem;
+  text-align: center;
+  margin: 2.5rem auto;
+}
+
+.interior {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem;
+
+  justify-content: center;
+
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.butns {
+  display: flex;
+  gap: 1rem;
+}
+
+.butn {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.section-head {
+  margin-bottom: 0.8rem;
+  font-size: 2.8rem;
+}
+
+.section-para {
+  font-size: 1.8rem;
+}
+
+.two {
+  height: 30rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4rem;
+}
+
+.three-one {
+  display: flex;
+  gap: 6rem;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.img-three {
+  width: 80%;
+}
+
+/* section {
+  border: 3px solid white;
+} */
+
+.tesla-blue {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  /* background-size: cover;
+  background-position: center; */
+}
+
+.four {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.108) 66.28%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(img/teslasblue.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.section-bottom {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 70%;
+  color: #fff;
+}
+
+.five {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+
+.five > div {
+  display: flex;
+  gap: 8rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.five-contents {
+  flex: 4;
+}
+
+.five-para {
+  flex: 6;
+}
+
+.beyond {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.cta-plaid {
+  width: 20rem;
+  text-align: center;
+}
+
+.six {
+  /* padding: 5rem; */
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+.six-para {
+  margin-bottom: 5rem;
+}
+
+.powertrain-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.powertrain-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.powertrain-para {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.seven {
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.seven-div-one {
+  width: 30%;
+  opacity: 60%;
+}
+
+.seven-div-two {
+  width: 30%;
+  opacity: 60%;
+}
+
+.seven-active {
+  opacity: 1;
+}
+
+.seven-h {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.seven-p {
+  font-size: 1.6rem;
+}
+
+.seven-img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.eight {
+  background-color: #000;
+  display: flex;
+}
+
+.eight-h {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.eight-h > span {
+  font-weight: 400;
+}
+
+.eight-img {
+  width: 50%;
+}
+
+.model-s {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.specs {
+  padding: 5rem;
+}
+
+.specs-cta {
+  padding: 1rem 3rem;
+  border: 1px solid white;
+  transition: all 0.25s;
+}
+
+.specs-cta:hover {
+  background-color: rgb(128, 128, 128);
+  border: rgb(128, 128, 128);
+}
+
+.specs-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 3rem;
+  /* align-items: center; */
+}
+
+.range,
+.power,
+.charging,
+.weight {
+  margin-top: 0.5rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.specs-btn-active {
+  color: #121212;
+  background-color: #fff;
+}
+
+.cta-final {
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.main-cta {
+  text-align: center;
+  padding: 3rem 6rem;
+  border-radius: 5rem;
+  font-size: 3rem;
+}
+
+.active-cta {
+  color: #121212;
+  background-color: #fff;
+}
